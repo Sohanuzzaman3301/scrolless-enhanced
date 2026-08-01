@@ -10,6 +10,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout code
@@ -40,28 +42,31 @@ jobs:
       - name: Build Debug APK
         run: ./gradlew :app:assembleDebug --no-daemon
 
-      - name: Upload Debug APK (artifact)
+      - name: Find APKs
+        run: |
+          find app/build/outputs -name "*.apk" -type f
+
+      - name: Upload Debug APKs (artifact)
         uses: actions/upload-artifact@v4
         with:
           name: scrolless-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
-          retention-days: 7
+          path: app/build/outputs/**/debug/*.apk
+          retention-days: 30
 
       - name: Create/Update Release with APK
+        if: github.ref == 'refs/heads/main' && github.repository_owner == 'Sohanuzzaman3301'
         uses: softprops/action-gh-release@v2
-        if: github.ref == 'refs/heads/main'
         with:
           tag_name: latest-debug
           name: "Latest Debug Build"
           body: |
             Auto-generated debug APK from commit ${{ github.sha }}
             
-            **Install:** Download `app-debug.apk` below and install on your Android device.
+            **Install:** Download the APK below and install on your Android device.
             
             *Built on: ${{ github.run_number }} | Commit: ${{ github.sha }}*
-          files: app/build/outputs/apk/debug/app-debug.apk
+          files: app/build/outputs/**/debug/*.apk
           draft: false
           prerelease: true
-          overwrite: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
