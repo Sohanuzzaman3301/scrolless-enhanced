@@ -1,0 +1,477 @@
+{
+  "app/build.gradle.kts": {
+    "mtime": 1785567510.4622397,
+    "ast_hash": "42a0a1f712929696c610c2e34b5cb1f2",
+    "semantic_hash": "42a0a1f712929696c610c2e34b5cb1f2"
+  },
+  "app/src/main/java/com/scrolless/app/ScrollessApplication.kt": {
+    "mtime": 1785567510.464116,
+    "ast_hash": "ad364e1eb70879e7a184859fdf08e0ed",
+    "semantic_hash": "ad364e1eb70879e7a184859fdf08e0ed"
+  },
+  "app/src/main/java/com/scrolless/app/accessibility/ScrollessBlockAccessibilityService.kt": {
+    "mtime": 1785567510.4644592,
+    "ast_hash": "715ca311ee64676419dca548e6c0e47d",
+    "semantic_hash": "715ca311ee64676419dca548e6c0e47d"
+  },
+  "app/src/main/java/com/scrolless/app/ui/MainActivity.kt": {
+    "mtime": 1785567510.4644592,
+    "ast_hash": "91ea3bbbe89cb2aed8e404dac35797cb",
+    "semantic_hash": "91ea3bbbe89cb2aed8e404dac35797cb"
+  },
+  "app/src/main/java/com/scrolless/app/ui/ScrollessAppState.kt": {
+    "mtime": 1785567510.4652658,
+    "ast_hash": "7ad1422b002ce70378bfc5a4ed127a23",
+    "semantic_hash": "7ad1422b002ce70378bfc5a4ed127a23"
+  },
+  "app/src/main/java/com/scrolless/app/ui/overlay/TimerOverlayManager.kt": {
+    "mtime": 1785567510.4652658,
+    "ast_hash": "996063e3cd73450967f297b3ac2206fe",
+    "semantic_hash": "996063e3cd73450967f297b3ac2206fe"
+  },
+  "app/src/oss/java/com/scrolless/app/util/ReviewUtils.kt": {
+    "mtime": 1785567510.4756467,
+    "ast_hash": "dfadb7e5146107c2991d4214d1a4588b",
+    "semantic_hash": "dfadb7e5146107c2991d4214d1a4588b"
+  },
+  "app/src/play/java/com/scrolless/app/util/ReviewUtils.kt": {
+    "mtime": 1785567510.4761443,
+    "ast_hash": "9acb310cecec6c7d25e8a49f672305a5",
+    "semantic_hash": "9acb310cecec6c7d25e8a49f672305a5"
+  },
+  "build.gradle.kts": {
+    "mtime": 1785567510.4920676,
+    "ast_hash": "3cf3068f60e9dca043d8ee73a8f9847e",
+    "semantic_hash": "3cf3068f60e9dca043d8ee73a8f9847e"
+  },
+  "buildscripts/toml-updater-config.gradle": {
+    "mtime": 1785567510.4920676,
+    "ast_hash": "61d8aa95d222fb5f07c04d182bf40cf8",
+    "semantic_hash": "61d8aa95d222fb5f07c04d182bf40cf8"
+  },
+  "core/data/build.gradle.kts": {
+    "mtime": 1785567510.4936075,
+    "ast_hash": "76b9697dd5cb4c2f74252696380c9efc",
+    "semantic_hash": "76b9697dd5cb4c2f74252696380c9efc"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/database/BlockableAppTypeConverters.kt": {
+    "mtime": 1785567510.4944856,
+    "ast_hash": "b79221fb10369610d512a8b4458e4415",
+    "semantic_hash": "b79221fb10369610d512a8b4458e4415"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/database/LocalDateTimeTypeConverters.kt": {
+    "mtime": 1785567510.4947972,
+    "ast_hash": "a38d181c0334a539644d121aa7375b70",
+    "semantic_hash": "a38d181c0334a539644d121aa7375b70"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/database/LocalDateTypeConverters.kt": {
+    "mtime": 1785567510.4947972,
+    "ast_hash": "a6329290fb27047924f8cb3a2b6da504",
+    "semantic_hash": "a6329290fb27047924f8cb3a2b6da504"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/database/ScrollessDatabase.kt": {
+    "mtime": 1785567510.4947972,
+    "ast_hash": "c97d39e06241bbd1c9bc2b6c144dc180",
+    "semantic_hash": "c97d39e06241bbd1c9bc2b6c144dc180"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/database/dao/BaseDao.kt": {
+    "mtime": 1785567510.4947972,
+    "ast_hash": "53df8e0cf194e8eb942fed21e085d41b",
+    "semantic_hash": "53df8e0cf194e8eb942fed21e085d41b"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/database/dao/SessionSegmentDao.kt": {
+    "mtime": 1785567510.4953127,
+    "ast_hash": "c5db448fcc481dac0828af761c53d037",
+    "semantic_hash": "c5db448fcc481dac0828af761c53d037"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/database/dao/UserSettingsDao.kt": {
+    "mtime": 1785567510.4953127,
+    "ast_hash": "61a37ee1a039a3d0ea9208636e7e93ac",
+    "semantic_hash": "61a37ee1a039a3d0ea9208636e7e93ac"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/database/model/SessionSegmentEntity.kt": {
+    "mtime": 1785567510.4953127,
+    "ast_hash": "586240112ce52469016f371995ce16e7",
+    "semantic_hash": "586240112ce52469016f371995ce16e7"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/database/model/UserSettingsEntity.kt": {
+    "mtime": 1785567510.4957535,
+    "ast_hash": "3dc67648307e5284a4727309d37ddb0b",
+    "semantic_hash": "3dc67648307e5284a4727309d37ddb0b"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/di/DataDiModule.kt": {
+    "mtime": 1785567510.4957535,
+    "ast_hash": "4ed0e64211eb4ce3880f1f55cd7ac435",
+    "semantic_hash": "4ed0e64211eb4ce3880f1f55cd7ac435"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/repository/SessionSegmentStoreImpl.kt": {
+    "mtime": 1785567510.4957535,
+    "ast_hash": "11b858e3f80b0e7f10b8515d26c9d0ee",
+    "semantic_hash": "11b858e3f80b0e7f10b8515d26c9d0ee"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/repository/SessionTrackerImpl.kt": {
+    "mtime": 1785567510.4962356,
+    "ast_hash": "e39a8979baeac26ad7d495664cf31141",
+    "semantic_hash": "e39a8979baeac26ad7d495664cf31141"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/data/repository/UserSettingsStoreImpl.kt": {
+    "mtime": 1785567510.4962356,
+    "ast_hash": "7935909bd64af1c639fb0bdce3574d44",
+    "semantic_hash": "7935909bd64af1c639fb0bdce3574d44"
+  },
+  "core/data/src/main/java/com/scrolless/app/core/util/Flows.kt": {
+    "mtime": 1785567510.4962356,
+    "ast_hash": "f8586c0d3fa0946117fc2eb25fcba47a",
+    "semantic_hash": "f8586c0d3fa0946117fc2eb25fcba47a"
+  },
+  "core/data/src/test/java/com/scrolless/app/core/data/repository/BaseTest.kt": {
+    "mtime": 1785567510.4970198,
+    "ast_hash": "e4d663c1a77d8a06f67d1518b3dce244",
+    "semantic_hash": "e4d663c1a77d8a06f67d1518b3dce244"
+  },
+  "core/data/src/test/java/com/scrolless/app/core/data/repository/SessionSegmentStoreImplTest.kt": {
+    "mtime": 1785567510.4972754,
+    "ast_hash": "7e1544f70b133f42331a67c204cfb361",
+    "semantic_hash": "7e1544f70b133f42331a67c204cfb361"
+  },
+  "core/data/src/test/java/com/scrolless/app/core/data/repository/SessionTrackerTest.kt": {
+    "mtime": 1785567510.4972754,
+    "ast_hash": "3cfa8f0b09478550d604a189271f798e",
+    "semantic_hash": "3cfa8f0b09478550d604a189271f798e"
+  },
+  "core/designsystem/build.gradle.kts": {
+    "mtime": 1785567510.4976277,
+    "ast_hash": "d7f7ccdf8c2ef97196ab8f5b627d9f05",
+    "semantic_hash": "d7f7ccdf8c2ef97196ab8f5b627d9f05"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/component/AnimatedButton.kt": {
+    "mtime": 1785567510.4983928,
+    "ast_hash": "b62f1b1ffc2d795929ae6efe5662db08",
+    "semantic_hash": "b62f1b1ffc2d795929ae6efe5662db08"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/component/AnimatedIcon.kt": {
+    "mtime": 1785567510.498812,
+    "ast_hash": "b489322411b0142253910e851e6b1bd3",
+    "semantic_hash": "b489322411b0142253910e851e6b1bd3"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/component/AutoResizingText.kt": {
+    "mtime": 1785567510.498812,
+    "ast_hash": "2f1e5de8999738d3b2d4fbd222642b17",
+    "semantic_hash": "2f1e5de8999738d3b2d4fbd222642b17"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/component/PopupCircleIcon.kt": {
+    "mtime": 1785567510.498812,
+    "ast_hash": "7ed881741f205777b01c7d5584466a8e",
+    "semantic_hash": "7ed881741f205777b01c7d5584466a8e"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/component/SegmentedCircularProgress.kt": {
+    "mtime": 1785567510.498812,
+    "ast_hash": "182201c96f210c151d17a5b3725c478a",
+    "semantic_hash": "182201c96f210c151d17a5b3725c478a"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/theme/Color.kt": {
+    "mtime": 1785567510.4990675,
+    "ast_hash": "646d08b7f5270c26b024268b369fe0f7",
+    "semantic_hash": "646d08b7f5270c26b024268b369fe0f7"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/theme/Shape.kt": {
+    "mtime": 1785567510.4999077,
+    "ast_hash": "0d24c91071a37a612415edfe48dafebf",
+    "semantic_hash": "0d24c91071a37a612415edfe48dafebf"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/theme/Theme.kt": {
+    "mtime": 1785567510.4999077,
+    "ast_hash": "6455a45fe0db8838e6d2584ab35e9046",
+    "semantic_hash": "6455a45fe0db8838e6d2584ab35e9046"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/theme/Type.kt": {
+    "mtime": 1785567510.4999077,
+    "ast_hash": "05efecdb1270077b8f735b3b07339a74",
+    "semantic_hash": "05efecdb1270077b8f735b3b07339a74"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/theme/Typography.kt": {
+    "mtime": 1785567510.4999077,
+    "ast_hash": "fcf07e68e25124d700eb989b977701cd",
+    "semantic_hash": "fcf07e68e25124d700eb989b977701cd"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/tooling/DevicePreviews.kt": {
+    "mtime": 1785567510.4999077,
+    "ast_hash": "36bb7dd9287921002639fd268eda1656",
+    "semantic_hash": "36bb7dd9287921002639fd268eda1656"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/util/GradientScrim.kt": {
+    "mtime": 1785567510.4999077,
+    "ast_hash": "696af5b5989eb4588983a3346c5423f9",
+    "semantic_hash": "696af5b5989eb4588983a3346c5423f9"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/util/Haptics.kt": {
+    "mtime": 1785567510.5000675,
+    "ast_hash": "3517894e4c9d4284a45f5fa1b40b9801",
+    "semantic_hash": "3517894e4c9d4284a45f5fa1b40b9801"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/util/LongExtension.kt": {
+    "mtime": 1785567510.5000675,
+    "ast_hash": "d25aa1683c603faa0a057c09362866fc",
+    "semantic_hash": "d25aa1683c603faa0a057c09362866fc"
+  },
+  "core/designsystem/src/main/java/com/scrolless/app/designsystem/util/TimeFormat.kt": {
+    "mtime": 1785567510.5000675,
+    "ast_hash": "e0d02abb327f50f89ba0831cff9747a9",
+    "semantic_hash": "e0d02abb327f50f89ba0831cff9747a9"
+  },
+  "core/domain/build.gradle.kts": {
+    "mtime": 1785567510.519084,
+    "ast_hash": "18e22ffa053ec5be4d18d0e214cc299d",
+    "semantic_hash": "18e22ffa053ec5be4d18d0e214cc299d"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/blocking/BlockingManager.kt": {
+    "mtime": 1785567510.5198345,
+    "ast_hash": "19f0bb2448dec44fbee14ce6567d7a26",
+    "semantic_hash": "19f0bb2448dec44fbee14ce6567d7a26"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/blocking/BlockingManagerImpl.kt": {
+    "mtime": 1785567510.5202177,
+    "ast_hash": "916718d004beeaa683bd5c825812b42f",
+    "semantic_hash": "916718d004beeaa683bd5c825812b42f"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/blocking/handler/BlockAllBlockHandler.kt": {
+    "mtime": 1785567510.5202177,
+    "ast_hash": "e40be4bfaf7618ae379ea4c8826502d8",
+    "semantic_hash": "e40be4bfaf7618ae379ea4c8826502d8"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/blocking/handler/BlockOptionHandler.kt": {
+    "mtime": 1785567510.520604,
+    "ast_hash": "74513e27a8aa8c766acc154736a98162",
+    "semantic_hash": "74513e27a8aa8c766acc154736a98162"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/blocking/handler/DayLimitBlockHandler.kt": {
+    "mtime": 1785567510.520604,
+    "ast_hash": "444381237d36b963e3b19cbc7b0edb90",
+    "semantic_hash": "444381237d36b963e3b19cbc7b0edb90"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/blocking/handler/IntervalTimerBlockHandler.kt": {
+    "mtime": 1785567510.520604,
+    "ast_hash": "de3d4191583dce7aec9f900a9b7ac3f2",
+    "semantic_hash": "de3d4191583dce7aec9f900a9b7ac3f2"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/blocking/handler/NoBlockHandler.kt": {
+    "mtime": 1785567510.520604,
+    "ast_hash": "65e8d9fcd7a5e6c1e5ee45f591cb85b8",
+    "semantic_hash": "65e8d9fcd7a5e6c1e5ee45f591cb85b8"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/blocking/time/TimeProvider.kt": {
+    "mtime": 1785567510.520604,
+    "ast_hash": "a5dfbb4b560a199b68fb8604a5bd95b8",
+    "semantic_hash": "a5dfbb4b560a199b68fb8604a5bd95b8"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/di/DomainDiModule.kt": {
+    "mtime": 1785567510.520604,
+    "ast_hash": "4b8809748b0d30a2519d0f3daba71d6d",
+    "semantic_hash": "4b8809748b0d30a2519d0f3daba71d6d"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/model/BlockOption.kt": {
+    "mtime": 1785567510.520604,
+    "ast_hash": "999ab21a46e5faee64b3430fb185ea35",
+    "semantic_hash": "999ab21a46e5faee64b3430fb185ea35"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/model/BlockableApp.kt": {
+    "mtime": 1785567510.5215793,
+    "ast_hash": "74a25f6262e9520cc7423980d5c5a4b3",
+    "semantic_hash": "74a25f6262e9520cc7423980d5c5a4b3"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/model/BlockingResult.kt": {
+    "mtime": 1785567510.5215793,
+    "ast_hash": "15a782ebd998aa2416cd33a510bf0cb8",
+    "semantic_hash": "15a782ebd998aa2416cd33a510bf0cb8"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/model/SessionSegment.kt": {
+    "mtime": 1785567510.5215793,
+    "ast_hash": "1751b6769230e21d121d191fedeac481",
+    "semantic_hash": "1751b6769230e21d121d191fedeac481"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/model/usage/UsageAnalytics.kt": {
+    "mtime": 1785567510.5215793,
+    "ast_hash": "17266e363f848f92966ccd7f938f8f0e",
+    "semantic_hash": "17266e363f848f92966ccd7f938f8f0e"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/model/usage/UsageAnalyticsExtensions.kt": {
+    "mtime": 1785567510.5220883,
+    "ast_hash": "ca87ce6ff34c99a4d1495673240f4fa6",
+    "semantic_hash": "ca87ce6ff34c99a4d1495673240f4fa6"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/repository/SessionSegmentStore.kt": {
+    "mtime": 1785567510.5220883,
+    "ast_hash": "eb9e6eeb63a9ee759d05c0839c2dbbe2",
+    "semantic_hash": "eb9e6eeb63a9ee759d05c0839c2dbbe2"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/repository/SessionTracker.kt": {
+    "mtime": 1785567510.5223584,
+    "ast_hash": "92047dece0ae71f9bc02a785131f5d18",
+    "semantic_hash": "92047dece0ae71f9bc02a785131f5d18"
+  },
+  "core/domain/src/main/java/com/scrolless/app/core/repository/UserSettingsStore.kt": {
+    "mtime": 1785567510.5223584,
+    "ast_hash": "f931638ed0ca8895337cc1c0884542de",
+    "semantic_hash": "f931638ed0ca8895337cc1c0884542de"
+  },
+  "core/domain/src/test/kotlin/com/scrolless/app/core/domain/BaseTest.kt": {
+    "mtime": 1785567510.5228412,
+    "ast_hash": "c68ba061bcf59d9ab35dc61dd6c052e4",
+    "semantic_hash": "c68ba061bcf59d9ab35dc61dd6c052e4"
+  },
+  "core/domain/src/test/kotlin/com/scrolless/app/core/domain/handler/BlockAllBlockHandlerTest.kt": {
+    "mtime": 1785567510.523181,
+    "ast_hash": "d11caf327650a81aad60d8a17c6b7928",
+    "semantic_hash": "d11caf327650a81aad60d8a17c6b7928"
+  },
+  "core/domain/src/test/kotlin/com/scrolless/app/core/domain/handler/DayLimitBlockHandlerTest.kt": {
+    "mtime": 1785567510.523376,
+    "ast_hash": "a7665dad3a7be4e4ab18dd5748d98e46",
+    "semantic_hash": "a7665dad3a7be4e4ab18dd5748d98e46"
+  },
+  "core/domain/src/test/kotlin/com/scrolless/app/core/domain/handler/IntervalTimerBlockHandlerTest.kt": {
+    "mtime": 1785567510.523376,
+    "ast_hash": "af161eef37c1c92ec217565d7f34e7ad",
+    "semantic_hash": "af161eef37c1c92ec217565d7f34e7ad"
+  },
+  "core/domain/src/test/kotlin/com/scrolless/app/core/domain/handler/NoBlockHandlerTest.kt": {
+    "mtime": 1785567510.523376,
+    "ast_hash": "62ea56105ec175ab0ba14bc385d30fb9",
+    "semantic_hash": "62ea56105ec175ab0ba14bc385d30fb9"
+  },
+  "core/domain/src/test/kotlin/com/scrolless/app/core/domain/usage/UsageAnalyticsExtensionsTest.kt": {
+    "mtime": 1785567510.523376,
+    "ast_hash": "e98901153ae521991707b5302f70a699",
+    "semantic_hash": "e98901153ae521991707b5302f70a699"
+  },
+  "core/domain/src/testFixtures/kotlin/com/scrolless/app/core/domain/utils/TestSchedulerTimeProvider.kt": {
+    "mtime": 1785567510.524255,
+    "ast_hash": "bfc8e161790dc86998e09c4272fd01a6",
+    "semantic_hash": "bfc8e161790dc86998e09c4272fd01a6"
+  },
+  "core/logging/build.gradle.kts": {
+    "mtime": 1785567510.524255,
+    "ast_hash": "e313ca5c0fa55efac865e0cd127405c9",
+    "semantic_hash": "e313ca5c0fa55efac865e0cd127405c9"
+  },
+  "core/logging/src/main/java/com/scrolless/app/core/logging/DebugLogTree.kt": {
+    "mtime": 1785567510.5252829,
+    "ast_hash": "13107ace9e70b761fe42c6d5d390618e",
+    "semantic_hash": "13107ace9e70b761fe42c6d5d390618e"
+  },
+  "core/logging/src/main/java/com/scrolless/app/core/logging/ReleaseLogTree.kt": {
+    "mtime": 1785567510.525553,
+    "ast_hash": "a4bad4100bdf723c4210e3ed1c747aff",
+    "semantic_hash": "a4bad4100bdf723c4210e3ed1c747aff"
+  },
+  "feature/home/build.gradle.kts": {
+    "mtime": 1785567510.5394747,
+    "ast_hash": "da511944819fdef894600afd079c87ec",
+    "semantic_hash": "da511944819fdef894600afd079c87ec"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/AccessibilitySettingsExt.kt": {
+    "mtime": 1785567510.5402317,
+    "ast_hash": "dbff02cf94b0ebb2ef9cacb0f2fb5bcd",
+    "semantic_hash": "dbff02cf94b0ebb2ef9cacb0f2fb5bcd"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/HomeScreen.kt": {
+    "mtime": 1785567510.5404952,
+    "ast_hash": "b1396351e03a4423ee9c4c586991a8bd",
+    "semantic_hash": "b1396351e03a4423ee9c4c586991a8bd"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/HomeViewModel.kt": {
+    "mtime": 1785567510.5404952,
+    "ast_hash": "be1d905dad3998e2c9e0c6544875fec2",
+    "semantic_hash": "be1d905dad3998e2c9e0c6544875fec2"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/ReviewPromptResult.kt": {
+    "mtime": 1785567510.5404952,
+    "ast_hash": "0ebfc1641b03223289ed2ea10841bf2b",
+    "semantic_hash": "0ebfc1641b03223289ed2ea10841bf2b"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/UsageAnalyticsModels.kt": {
+    "mtime": 1785567510.5404952,
+    "ast_hash": "e80073c88b3d85f54c686133fbe5d3d5",
+    "semantic_hash": "e80073c88b3d85f54c686133fbe5d3d5"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/components/ProgressCard.kt": {
+    "mtime": 1785567510.5404952,
+    "ast_hash": "a52bc5956ea5364a657da42e953b7f32",
+    "semantic_hash": "a52bc5956ea5364a657da42e953b7f32"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/components/TodayBlockingControls.kt": {
+    "mtime": 1785567510.541634,
+    "ast_hash": "dd1a29eb66d8c8172eefa8157b1cd9fe",
+    "semantic_hash": "dd1a29eb66d8c8172eefa8157b1cd9fe"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/components/UsageTimelineComponents.kt": {
+    "mtime": 1785567510.541634,
+    "ast_hash": "edf81317590d4dbfa8356c460770ba53",
+    "semantic_hash": "edf81317590d4dbfa8356c460770ba53"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/components/UsageWeekdayComponents.kt": {
+    "mtime": 1785567510.541634,
+    "ast_hash": "59594b2852424bd48775fb5f499206da",
+    "semantic_hash": "59594b2852424bd48775fb5f499206da"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/debug/DebugSessionPanel.kt": {
+    "mtime": 1785567510.541634,
+    "ast_hash": "14eeed975f691bac85f53c9ca4704abf",
+    "semantic_hash": "14eeed975f691bac85f53c9ca4704abf"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/dialogs/AccessibilityExplainerDialog.kt": {
+    "mtime": 1785567510.541634,
+    "ast_hash": "4c00cfd84c161dde1743583e8ce38827",
+    "semantic_hash": "4c00cfd84c161dde1743583e8ce38827"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/dialogs/AccessibilitySuccessBottomSheet.kt": {
+    "mtime": 1785567510.5426993,
+    "ast_hash": "1fd4ae739cf557d66c420a54142374e1",
+    "semantic_hash": "1fd4ae739cf557d66c420a54142374e1"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/dialogs/HelpDialog.kt": {
+    "mtime": 1785567510.5426993,
+    "ast_hash": "45caf267bd554d5e4c68a3238f1567eb",
+    "semantic_hash": "45caf267bd554d5e4c68a3238f1567eb"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/dialogs/IntervalTimerDialog.kt": {
+    "mtime": 1785567510.5426993,
+    "ast_hash": "c12ea6e78bb42aadf9d5a239cb17c8b7",
+    "semantic_hash": "c12ea6e78bb42aadf9d5a239cb17c8b7"
+  },
+  "feature/home/src/main/java/com/scrolless/app/feature/home/dialogs/TimeLimitDialog.kt": {
+    "mtime": 1785567510.5426993,
+    "ast_hash": "69ec0190176c9a82a6938a00eae58a12",
+    "semantic_hash": "69ec0190176c9a82a6938a00eae58a12"
+  },
+  "feature/settings/build.gradle.kts": {
+    "mtime": 1785567510.5520673,
+    "ast_hash": "1c1a67dba7a68aa2d576ac1adef48068",
+    "semantic_hash": "1c1a67dba7a68aa2d576ac1adef48068"
+  },
+  "feature/settings/src/main/java/com/scrolless/app/feature/settings/SettingsScreen.kt": {
+    "mtime": 1785567510.553548,
+    "ast_hash": "59c0d31a3acd648070ea9bf9708bd637",
+    "semantic_hash": "59c0d31a3acd648070ea9bf9708bd637"
+  },
+  "feature/settings/src/main/java/com/scrolless/app/feature/settings/SettingsViewModel.kt": {
+    "mtime": 1785567510.5541668,
+    "ast_hash": "668a6ddcf77cf2dd6ef4edd1d5674c24",
+    "semantic_hash": "668a6ddcf77cf2dd6ef4edd1d5674c24"
+  },
+  "gradlew": {
+    "mtime": 1785567510.5630193,
+    "ast_hash": "45bf2667b1fbec0e07e42808dc662b6b",
+    "semantic_hash": "45bf2667b1fbec0e07e42808dc662b6b"
+  },
+  "settings.gradle.kts": {
+    "mtime": 1785567510.5630193,
+    "ast_hash": "843221a85eee97d78f3373387349249a",
+    "semantic_hash": "843221a85eee97d78f3373387349249a"
+  },
+  "spotless/copyright.kt": {
+    "mtime": 1785567510.5630193,
+    "ast_hash": "0853dfc59eaf203dbb07ce898e6675f7",
+    "semantic_hash": "0853dfc59eaf203dbb07ce898e6675f7"
+  }
+}
