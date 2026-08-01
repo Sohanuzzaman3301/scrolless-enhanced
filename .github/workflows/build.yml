@@ -40,17 +40,28 @@ jobs:
       - name: Build Debug APK
         run: ./gradlew :app:assembleDebug --no-daemon
 
-      - name: Upload Debug APK
+      - name: Upload Debug APK (artifact)
         uses: actions/upload-artifact@v4
         with:
           name: scrolless-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
           retention-days: 7
 
-      - name: Upload APK to Release (on tag)
-        if: startsWith(github.ref, 'refs/tags/')
+      - name: Create/Update Release with APK
         uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main'
         with:
+          tag_name: latest-debug
+          name: "Latest Debug Build"
+          body: |
+            Auto-generated debug APK from commit ${{ github.sha }}
+            
+            **Install:** Download `app-debug.apk` below and install on your Android device.
+            
+            *Built on: ${{ github.run_number }} | Commit: ${{ github.sha }}*
           files: app/build/outputs/apk/debug/app-debug.apk
+          draft: false
+          prerelease: true
+          overwrite: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
