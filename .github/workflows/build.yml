@@ -1,4 +1,4 @@
-name: Build Debug APK
+name: Build APKs
 
 on:
   push:
@@ -39,8 +39,21 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
+      - name: Decode Release Keystore
+        if: github.ref == 'refs/heads/main' && github.repository_owner == 'Sohanuzzaman3301'
+        run: |
+          echo "${{ secrets.ANDROID_RELEASE_KEYSTORE }}" | base64 -d > release.keystore
+          echo "ANDROID_RELEASE_KEYSTORE_PATH=$(pwd)/release.keystore" >> $GITHUB_ENV
+          echo "ANDROID_RELEASE_STORE_PASSWORD=${{ secrets.ANDROID_RELEASE_STORE_PASSWORD }}" >> $GITHUB_ENV
+          echo "ANDROID_RELEASE_KEY_ALIAS=${{ secrets.ANDROID_RELEASE_KEY_ALIAS }}" >> $GITHUB_ENV
+          echo "ANDROID_RELEASE_KEY_PASSWORD=${{ secrets.ANDROID_RELEASE_KEY_PASSWORD }}" >> $GITHUB_ENV
+
       - name: Build Debug APK
         run: ./gradlew :app:assembleDebug --no-daemon
+
+      - name: Build Release APK
+        if: github.ref == 'refs/heads/main' && github.repository_owner == 'Sohanuzzaman3301'
+        run: ./gradlew :app:assembleOssRelease :app:assemblePlayRelease --no-daemon
 
       - name: Find APKs
         run: |
@@ -53,7 +66,15 @@ jobs:
           path: app/build/outputs/**/debug/*.apk
           retention-days: 30
 
-      - name: Create/Update Release with APK
+      - name: Upload Release APKs (artifact)
+        if: github.ref == 'refs/heads/main' && github.repository_owner == 'Sohanuzzaman3301'
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrolless-release-apk
+          path: app/build/outputs/**/release/*.apk
+          retention-days: 90
+
+      - name: Create/Update Debug Release
         if: github.ref == 'refs/heads/main' && github.repository_owner == 'Sohanuzzaman3301'
         uses: softprops/action-gh-release@v2
         with:
@@ -68,5 +89,25 @@ jobs:
           files: app/build/outputs/**/debug/*.apk
           draft: false
           prerelease: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create/Update Release
+        if: github.ref == 'refs/heads/main' && github.repository_owner == 'Sohanuzzaman3301'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest-release
+          name: "Latest Release Build"
+          body: |
+            Auto-generated **signed release** APK from commit ${{ github.sha }}
+            
+            **Install:** Download the APK below and install on your Android device.
+            - `app-oss-release.apk` - Open source variant (no Play services)
+            - `app-play-release.apk` - Play Store variant (with in-app review)
+            
+            *Built on: ${{ github.run_number }} | Commit: ${{ github.sha }}*
+          files: app/build/outputs/**/release/*.apk
+          draft: false
+          prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
